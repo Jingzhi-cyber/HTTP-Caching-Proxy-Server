@@ -16,4 +16,4 @@ To run this proxy within docker, you can run
 
 Now you need to change the proxy of your web browser to this proxy with port 12345. After that you can open web pages with this proxy.
 
-The testcases we used is in testcases.txt and danger_log.txt contains some information about our program.
+The testcases we used is in testcases.txt and danger_log.txt contains information about possible dangers in our program.
