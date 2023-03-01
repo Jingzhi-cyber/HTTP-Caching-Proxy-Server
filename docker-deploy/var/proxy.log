@@ -1,0 +1,350 @@
+0: "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:26 2023
+1: "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:26 2023
+0: Requesting "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from mozilla.cloudflare-dns.com
+0: Received "HTTP/1.1 200 OK" from mozilla.cloudflare-dns.com
+0: Responding "HTTP/1.1 200 OK"
+1: Requesting "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from mozilla.cloudflare-dns.com
+1: Received "HTTP/1.1 200 OK" from mozilla.cloudflare-dns.com
+1: Responding "HTTP/1.1 200 OK"
+2: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:26 2023
+3: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:26 2023
+2: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from 
+3: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from 
+2: Received "HTTP/1.1 200 OK" from 
+2: Responding "HTTP/1.1 200 OK"
+3: Received "HTTP/1.1 200 OK" from 
+3: Responding "HTTP/1.1 200 OK"
+0: Tunnel closed
+4: "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:26 2023
+4: not in cache
+4: Requesting "GET http://detectportal.firefox.com/canonical.html HTTP/1.1" from 
+4: Received "HTTP/1.1 200 OK" from 
+4: Responding "HTTP/1.1 200 OK"
+5: "GET http://detectportal.firefox.com/success.txt?ipv4 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:27 2023
+6: "GET http://detectportal.firefox.com/success.txt?ipv6 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:27 2023
+7: "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:27 2023
+5: not in cache
+5: Requesting "GET http://detectportal.firefox.com/success.txt?ipv4 HTTP/1.1" from 
+6: not in cache
+6: Requesting "GET http://detectportal.firefox.com/success.txt?ipv6 HTTP/1.1" from 
+7: Requesting "CONNECT mozilla.cloudflare-dns.com:443 HTTP/1.1" from mozilla.cloudflare-dns.com
+7: Received "HTTP/1.1 200 OK" from mozilla.cloudflare-dns.com
+7: Responding "HTTP/1.1 200 OK"
+5: Received "HTTP/1.1 200 OK" from 
+5: Responding "HTTP/1.1 200 OK"
+6: Received "HTTP/1.1 200 OK" from 
+6: Responding "HTTP/1.1 200 OK"
+8: "CONNECT contile.services.mozilla.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:27 2023
+9: "CONNECT content-signature-2.cdn.mozilla.net:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:27 2023
+9: Requesting "CONNECT content-signature-2.cdn.mozilla.net:443 HTTP/1.1" from content-signature-2.cdn.mozilla.net
+9: Received "HTTP/1.1 200 OK" from content-signature-2.cdn.mozilla.net
+9: Responding "HTTP/1.1 200 OK"
+9: Tunnel closed
+8: Requesting "CONNECT contile.services.mozilla.com:443 HTTP/1.1" from contile.services.mozilla.com
+8: Received "HTTP/1.1 200 OK" from contile.services.mozilla.com
+8: Responding "HTTP/1.1 200 OK"
+10: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:27 2023
+10: Requesting "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from incoming.telemetry.mozilla.org
+10: Received "HTTP/1.1 200 OK" from incoming.telemetry.mozilla.org
+10: Responding "HTTP/1.1 200 OK"
+11: "CONNECT aus5.mozilla.org:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:27 2023
+11: Requesting "CONNECT aus5.mozilla.org:443 HTTP/1.1" from aus5.mozilla.org
+11: Received "HTTP/1.1 200 OK" from aus5.mozilla.org
+11: Responding "HTTP/1.1 200 OK"
+12: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:28 2023
+12: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from 
+12: Received "HTTP/1.1 200 OK" from 
+12: Responding "HTTP/1.1 200 OK"
+13: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:28 2023
+13: Requesting "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from incoming.telemetry.mozilla.org
+13: Received "HTTP/1.1 200 OK" from incoming.telemetry.mozilla.org
+13: Responding "HTTP/1.1 200 OK"
+14: "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:29 2023
+15: "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:29 2023
+16: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:29 2023
+17: "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:29 2023
+14: Requesting "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from contile-images.services.mozilla.com
+14: Received "HTTP/1.1 200 OK" from contile-images.services.mozilla.com
+14: Responding "HTTP/1.1 200 OK"
+15: Requesting "CONNECT contile-images.services.mozilla.com:443 HTTP/1.1" from contile-images.services.mozilla.com
+15: Received "HTTP/1.1 200 OK" from contile-images.services.mozilla.com
+15: Responding "HTTP/1.1 200 OK"
+17: Requesting "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from incoming.telemetry.mozilla.org
+17: Received "HTTP/1.1 200 OK" from incoming.telemetry.mozilla.org
+17: Responding "HTTP/1.1 200 OK"
+16: Requesting "CONNECT incoming.telemetry.mozilla.org:443 HTTP/1.1" from incoming.telemetry.mozilla.org
+16: Received "HTTP/1.1 200 OK" from incoming.telemetry.mozilla.org
+16: Responding "HTTP/1.1 200 OK"
+18: "GET http://httpbin.org/forms/post HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:29 2023
+19: "POST http://r3.o.lencr.org/ HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:29 2023
+20: "POST http://r3.o.lencr.org/ HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:29 2023
+21: "POST http://ocsp.digicert.com/ HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:29 2023
+21: Requesting "POST http://ocsp.digicert.com/ HTTP/1.1" from 
+18: not in cache
+18: Requesting "GET http://httpbin.org/forms/post HTTP/1.1" from 
+18: Received "HTTP/1.1 200 OK" from 
+18: Responding "HTTP/1.1 200 OK"
+19: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from 
+20: Requesting "POST http://r3.o.lencr.org/ HTTP/1.1" from 
+21: Received "HTTP/1.1 200 OK" from 
+21: Responding "HTTP/1.1 200 OK"
+20: Received "HTTP/1.1 400 Bad Request" from 
+20: Responding "HTTP/1.1 400 Bad Request"
+19: Received "HTTP/1.1 400 Bad Request" from 
+19: Responding "HTTP/1.1 400 Bad Request"
+14: Tunnel closed
+10: Tunnel closed
+17: Tunnel closed
+22: "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:34 2023
+22: not in cache
+22: Requesting "GET http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx HTTP/1.1" from 
+22: Received "HTTP/1.1 200 OK" from 
+22: Responding "HTTP/1.1 200 OK"
+22: not cacheable because has no-store
+23: "CONNECT www.youtube.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:39 2023
+23: Requesting "CONNECT www.youtube.com:443 HTTP/1.1" from www.youtube.com
+23: Received "HTTP/1.1 200 OK" from www.youtube.com
+23: Responding "HTTP/1.1 200 OK"
+24: "CONNECT i.ytimg.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:41 2023
+24: Requesting "CONNECT i.ytimg.com:443 HTTP/1.1" from i.ytimg.com
+24: Received "HTTP/1.1 200 OK" from i.ytimg.com
+24: Responding "HTTP/1.1 200 OK"
+26: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:41 2023
+26: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 
+26: Received "HTTP/1.1 200 OK" from 
+26: Responding "HTTP/1.1 200 OK"
+28: "CONNECT accounts.google.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:41 2023
+28: Requesting "CONNECT accounts.google.com:443 HTTP/1.1" from accounts.google.com
+28: Received "HTTP/1.1 200 OK" from accounts.google.com
+28: Responding "HTTP/1.1 200 OK"
+29: "CONNECT googleads.g.doubleclick.net:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:43 2023
+29: Requesting "CONNECT googleads.g.doubleclick.net:443 HTTP/1.1" from googleads.g.doubleclick.net
+29: Received "HTTP/1.1 200 OK" from googleads.g.doubleclick.net
+29: Responding "HTTP/1.1 200 OK"
+30: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:43 2023
+30: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 
+30: Received "HTTP/1.1 200 OK" from 
+30: Responding "HTTP/1.1 200 OK"
+32: "CONNECT www.gstatic.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:44 2023
+32: Requesting "CONNECT www.gstatic.com:443 HTTP/1.1" from www.gstatic.com
+32: Received "HTTP/1.1 200 OK" from www.gstatic.com
+32: Responding "HTTP/1.1 200 OK"
+31: "CONNECT www.google.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:44 2023
+31: Requesting "CONNECT www.google.com:443 HTTP/1.1" from www.google.com
+31: Received "HTTP/1.1 200 OK" from www.google.com
+31: Responding "HTTP/1.1 200 OK"
+33: "CONNECT yt3.ggpht.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:44 2023
+34: "CONNECT yt3.ggpht.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:44 2023
+37: "CONNECT www.gstatic.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:44 2023
+35: "CONNECT yt3.ggpht.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:44 2023
+37: Requesting "CONNECT www.gstatic.com:443 HTTP/1.1" from www.gstatic.com
+37: Received "HTTP/1.1 200 OK" from www.gstatic.com
+37: Responding "HTTP/1.1 200 OK"
+34: Requesting "CONNECT yt3.ggpht.com:443 HTTP/1.1" from yt3.ggpht.com
+34: Received "HTTP/1.1 200 OK" from yt3.ggpht.com
+34: Responding "HTTP/1.1 200 OK"
+33: Requesting "CONNECT yt3.ggpht.com:443 HTTP/1.1" from yt3.ggpht.com
+33: Received "HTTP/1.1 200 OK" from yt3.ggpht.com
+33: Responding "HTTP/1.1 200 OK"
+38: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:44 2023
+35: Requesting "CONNECT yt3.ggpht.com:443 HTTP/1.1" from yt3.ggpht.com
+35: Received "HTTP/1.1 200 OK" from yt3.ggpht.com
+35: Responding "HTTP/1.1 200 OK"
+38: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 
+38: Received "HTTP/1.1 200 OK" from 
+38: Responding "HTTP/1.1 200 OK"
+39: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:44 2023
+40: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:44 2023
+41: "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:44 2023
+39: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 
+40: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 
+41: Requesting "POST http://ocsp.pki.goog/gts1c3 HTTP/1.1" from 
+39: Received "HTTP/1.1 200 OK" from 
+39: Responding "HTTP/1.1 200 OK"
+40: Received "HTTP/1.1 200 OK" from 
+40: Responding "HTTP/1.1 200 OK"
+41: Received "HTTP/1.1 200 OK" from 
+41: Responding "HTTP/1.1 200 OK"
+35: Tunnel closed
+34: Tunnel closed
+42: "CONNECT jnn-pa.googleapis.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:46 2023
+44: "CONNECT static.doubleclick.net:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:46 2023
+42: Requesting "CONNECT jnn-pa.googleapis.com:443 HTTP/1.1" from jnn-pa.googleapis.com
+42: Received "HTTP/1.1 200 OK" from jnn-pa.googleapis.com
+42: Responding "HTTP/1.1 200 OK"
+44: Requesting "CONNECT static.doubleclick.net:443 HTTP/1.1" from static.doubleclick.net
+44: Received "HTTP/1.1 200 OK" from static.doubleclick.net
+44: Responding "HTTP/1.1 200 OK"
+37: Tunnel closed
+27: Responding "HTTP/1.1 400 Bad Request"
+25: Responding "HTTP/1.1 400 Bad Request"
+36: Responding "HTTP/1.1 400 Bad Request"
+43: Responding "HTTP/1.1 400 Bad Request"
+45: Responding "HTTP/1.1 400 Bad Request"
+46: Responding "HTTP/1.1 400 Bad Request"
+47: "CONNECT www.reddit.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:28:58 2023
+47: Requesting "CONNECT www.reddit.com:443 HTTP/1.1" from www.reddit.com
+47: Received "HTTP/1.1 200 OK" from www.reddit.com
+47: Responding "HTTP/1.1 200 OK"
+48: "CONNECT www.redditstatic.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:00 2023
+49: "CONNECT www.redditstatic.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:00 2023
+51: "CONNECT www.redditstatic.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:00 2023
+54: "CONNECT styles.redditmedia.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:00 2023
+49: Requesting "CONNECT www.redditstatic.com:443 HTTP/1.1" from www.redditstatic.com
+49: Received "HTTP/1.1 200 OK" from www.redditstatic.com
+49: Responding "HTTP/1.1 200 OK"
+49: Tunnel closed
+48: Requesting "CONNECT www.redditstatic.com:443 HTTP/1.1" from www.redditstatic.com
+48: Received "HTTP/1.1 200 OK" from www.redditstatic.com
+48: Responding "HTTP/1.1 200 OK"
+48: Tunnel closed
+50: "CONNECT www.redditstatic.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:00 2023
+53: "CONNECT www.redditstatic.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:00 2023
+55: "CONNECT preview.redd.it:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:00 2023
+56: "CONNECT preview.redd.it:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:00 2023
+51: Requesting "CONNECT www.redditstatic.com:443 HTTP/1.1" from www.redditstatic.com
+51: Received "HTTP/1.1 200 OK" from www.redditstatic.com
+51: Responding "HTTP/1.1 200 OK"
+50: Requesting "CONNECT www.redditstatic.com:443 HTTP/1.1" from www.redditstatic.com
+50: Received "HTTP/1.1 200 OK" from www.redditstatic.com
+50: Responding "HTTP/1.1 200 OK"
+50: Tunnel closed
+53: Requesting "CONNECT www.redditstatic.com:443 HTTP/1.1" from www.redditstatic.com
+53: Received "HTTP/1.1 200 OK" from www.redditstatic.com
+53: Responding "HTTP/1.1 200 OK"
+53: Tunnel closed
+56: Requesting "CONNECT preview.redd.it:443 HTTP/1.1" from preview.redd.it
+56: Received "HTTP/1.1 200 OK" from preview.redd.it
+56: Responding "HTTP/1.1 200 OK"
+55: Requesting "CONNECT preview.redd.it:443 HTTP/1.1" from preview.redd.it
+55: Received "HTTP/1.1 200 OK" from preview.redd.it
+55: Responding "HTTP/1.1 200 OK"
+54: Requesting "CONNECT styles.redditmedia.com:443 HTTP/1.1" from styles.redditmedia.com
+54: Received "HTTP/1.1 200 OK" from styles.redditmedia.com
+54: Responding "HTTP/1.1 200 OK"
+57: "CONNECT styles.redditmedia.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:00 2023
+59: "CONNECT preview.redd.it:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:00 2023
+61: "CONNECT preview.redd.it:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:00 2023
+57: Requesting "CONNECT styles.redditmedia.com:443 HTTP/1.1" from styles.redditmedia.com
+57: Received "HTTP/1.1 200 OK" from styles.redditmedia.com
+57: Responding "HTTP/1.1 200 OK"
+59: Requesting "CONNECT preview.redd.it:443 HTTP/1.1" from preview.redd.it
+59: Received "HTTP/1.1 200 OK" from preview.redd.it
+59: Responding "HTTP/1.1 200 OK"
+61: Requesting "CONNECT preview.redd.it:443 HTTP/1.1" from preview.redd.it
+61: Received "HTTP/1.1 200 OK" from preview.redd.it
+61: Responding "HTTP/1.1 200 OK"
+55: Tunnel closed
+59: Tunnel closed
+57: Tunnel closed
+61: Tunnel closed
+69: "CONNECT w3-reporting.reddit.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:00 2023
+69: Requesting "CONNECT w3-reporting.reddit.com:443 HTTP/1.1" from w3-reporting.reddit.com
+69: Received "HTTP/1.1 200 OK" from w3-reporting.reddit.com
+69: Responding "HTTP/1.1 200 OK"
+70: "CONNECT gql.reddit.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:01 2023
+70: Requesting "CONNECT gql.reddit.com:443 HTTP/1.1" from gql.reddit.com
+70: Received "HTTP/1.1 200 OK" from gql.reddit.com
+70: Responding "HTTP/1.1 200 OK"
+73: "CONNECT www.googletagmanager.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:01 2023
+73: Requesting "CONNECT www.googletagmanager.com:443 HTTP/1.1" from www.googletagmanager.com
+73: Received "HTTP/1.1 200 OK" from www.googletagmanager.com
+73: Responding "HTTP/1.1 200 OK"
+74: "CONNECT v.redd.it:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:02 2023
+74: Requesting "CONNECT v.redd.it:443 HTTP/1.1" from v.redd.it
+74: Received "HTTP/1.1 200 OK" from v.redd.it
+74: Responding "HTTP/1.1 200 OK"
+58: "CONNECT b.thumbs.redditmedia.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:03 2023
+58: Requesting "CONNECT b.thumbs.redditmedia.com:443 HTTP/1.1" from b.thumbs.redditmedia.com
+58: Received "HTTP/1.1 200 OK" from b.thumbs.redditmedia.com
+58: Responding "HTTP/1.1 200 OK"
+60: "CONNECT external-preview.redd.it:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:03 2023
+75: "CONNECT external-preview.redd.it:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:03 2023
+76: "CONNECT external-preview.redd.it:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:03 2023
+78: "CONNECT external-preview.redd.it:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:03 2023
+77: "CONNECT external-preview.redd.it:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:03 2023
+79: "CONNECT external-preview.redd.it:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:03 2023
+77: Requesting "CONNECT external-preview.redd.it:443 HTTP/1.1" from external-preview.redd.it
+77: Received "HTTP/1.1 200 OK" from external-preview.redd.it
+77: Responding "HTTP/1.1 200 OK"
+79: Requesting "CONNECT external-preview.redd.it:443 HTTP/1.1" from external-preview.redd.it
+79: Received "HTTP/1.1 200 OK" from external-preview.redd.it
+79: Responding "HTTP/1.1 200 OK"
+60: Requesting "CONNECT external-preview.redd.it:443 HTTP/1.1" from external-preview.redd.it
+60: Received "HTTP/1.1 200 OK" from external-preview.redd.it
+60: Responding "HTTP/1.1 200 OK"
+75: Requesting "CONNECT external-preview.redd.it:443 HTTP/1.1" from external-preview.redd.it
+75: Received "HTTP/1.1 200 OK" from external-preview.redd.it
+75: Responding "HTTP/1.1 200 OK"
+76: Requesting "CONNECT external-preview.redd.it:443 HTTP/1.1" from external-preview.redd.it
+76: Received "HTTP/1.1 200 OK" from external-preview.redd.it
+76: Responding "HTTP/1.1 200 OK"
+78: Requesting "CONNECT external-preview.redd.it:443 HTTP/1.1" from external-preview.redd.it
+78: Received "HTTP/1.1 200 OK" from external-preview.redd.it
+78: Responding "HTTP/1.1 200 OK"
+76: Tunnel closed
+75: Tunnel closed
+77: Tunnel closed
+78: Tunnel closed
+79: Tunnel closed
+80: "CONNECT id.rlcdn.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:04 2023
+80: Requesting "CONNECT id.rlcdn.com:443 HTTP/1.1" from id.rlcdn.com
+80: Received "HTTP/1.1 200 OK" from id.rlcdn.com
+80: Responding "HTTP/1.1 200 OK"
+81: "POST http://ocsp.sectigo.com/ HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:04 2023
+81: Requesting "POST http://ocsp.sectigo.com/ HTTP/1.1" from 
+81: Received "HTTP/1.1 200 OK" from 
+81: Responding "HTTP/1.1 200 OK"
+82: "CONNECT alb.reddit.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:04 2023
+82: Requesting "CONNECT alb.reddit.com:443 HTTP/1.1" from alb.reddit.com
+82: Received "HTTP/1.1 200 OK" from alb.reddit.com
+82: Responding "HTTP/1.1 200 OK"
+83: "CONNECT sb.scorecardresearch.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:04 2023
+83: Requesting "CONNECT sb.scorecardresearch.com:443 HTTP/1.1" from sb.scorecardresearch.com
+83: Received "HTTP/1.1 200 OK" from sb.scorecardresearch.com
+83: Responding "HTTP/1.1 200 OK"
+85: "CONNECT gateway.reddit.com:443 HTTP/1.1" from 10.194.75.41 @ Wed Mar  1 02:29:05 2023
+85: Requesting "CONNECT gateway.reddit.com:443 HTTP/1.1" from gateway.reddit.com
+85: Received "HTTP/1.1 200 OK" from gateway.reddit.com
+85: Responding "HTTP/1.1 200 OK"
+68: Responding "HTTP/1.1 400 Bad Request"
+63: Responding "HTTP/1.1 400 Bad Request"
+62: Responding "HTTP/1.1 400 Bad Request"
+67: Responding "HTTP/1.1 400 Bad Request"
+65: Responding "HTTP/1.1 400 Bad Request"
+64: Responding "HTTP/1.1 400 Bad Request"
+66: Responding "HTTP/1.1 400 Bad Request"
+52: Responding "HTTP/1.1 400 Bad Request"
+71: Responding "HTTP/1.1 400 Bad Request"
+83: Tunnel closed
+58: Tunnel closed
+80: Tunnel closed
+54: Tunnel closed
+73: Tunnel closed
+60: Tunnel closed
+56: Tunnel closed
+72: Responding "HTTP/1.1 400 Bad Request"
+85: Tunnel closed
+82: Tunnel closed
+51: Tunnel closed
+84: Responding "HTTP/1.1 400 Bad Request"
+69: Tunnel closed
+33: Tunnel closed
+70: Tunnel closed
+32: Tunnel closed
+29: Tunnel closed
+31: Tunnel closed
+24: Tunnel closed
+42: Tunnel closed
+47: Tunnel closed
+44: Tunnel closed
+23: Tunnel closed
+74: Tunnel closed
+11: Tunnel closed
+13: Tunnel closed
+28: Tunnel closed
+16: Tunnel closed
+8: Tunnel closed
+7: Tunnel closed
+15: Tunnel closed
+1: Tunnel closed
